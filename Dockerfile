@@ -8,9 +8,3 @@ ENV \
     DBFILE= \
     CONFIG_FOLDER= \
     USERNAME=
-
-WORKDIR /tmp
-
-COPY run.sh run.sh
-RUN chmod +x run.sh
-CMD [ "/tmp/run.sh" ]
